@@ -15,4 +15,7 @@ AR6:
 
   - [No style (or inline sytactic style) ](https://vivliostyle.vercel.app/#src=https://raw.githubusercontent.com/petermr/pyamihtml/main/test/resources/ipcc/syr/longer-report/html_with_ids.html&style=data:,/*%3Cviewer%3E*/%0A@page%20%7B%20size:%20a4%20!important;%20margin:%204%25%20!important;%20%7D%0A*%20%7B%20widows:%201%20!important;%20orphans:%201%20!important;%20%7D%0Aimg,%20svg%20%7B%20max-inline-size:%20100%25%20!important;%20max-block-size:%20100vb%20!important;%20object-fit:%20contain%20!important;%20%7D%0A/*%3C/viewer%3E*/&fontSize=12.8/16&spread=true)
   - [Manuals style](https://vivliostyle.vercel.app/#src=https://raw.githubusercontent.com/petermr/pyamihtml/main/test/resources/ipcc/syr/longer-report/html_with_ids.html&style=https://raw.githubusercontent.com/a-machine/manual-gaffm/main/uhtml/css/manual-gaffm-en.css)
-  - 
+  - [Report style](https://vivliostyle.vercel.app/#src=https://raw.githubusercontent.com/petermr/pyamihtml/main/test/resources/ipcc/syr/longer-report/html_with_ids.html&style=https://raw.githubusercontent.com/a-machine/report-gaffm/main/uhtml/css/berichte-gaffm-en.css)
+
+
+https://raw.githubusercontent.com/a-machine/report-gaffm/main/uhtml/css/berichte-gaffm-en.css
