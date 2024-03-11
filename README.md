@@ -20,5 +20,7 @@ To be confirmed
 
 ### Longer report
 
+https://www.ipcc.ch/report/ar6/syr/longer-report/ 
+
 
 
