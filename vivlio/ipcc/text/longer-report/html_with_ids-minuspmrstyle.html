@@ -32,26 +32,9 @@
             }
         </style>
     </noscript>
-    <style>
-        div {
-            border: dotted red 0.5px;
-            margin: 5px;
-        }
-    </style>
-    <style>
-        img {
-            width: 50%;
-            margin: 5px;
-        }
-    </style>
-    <style>
-        header::before {
-            content: 'HEADER';
-        }
-    </style>
-    <style>
+    <!-- <style>
         div.col-lg-10.col-12.offset-lg-0::before {
-            content: 'BODY';
+            content: 'COL-LG';
         }
     </style>
     <style>
@@ -144,492 +127,354 @@
             margin: 5px;
         }
     </style>
+    <style>
+        header {
+            background: #ffffff;
+            border: solid black 0.5px;
+        }
+    </style>
+    <style>
+        header::before {
+            background: #ddffdd;
+            content: 'HEADER';
+        }
+    </style>
+    <style>
+        main {
+            background: #ffffff;
+            border: solid black 0.5px;
+        }
+    </style>
+    <style>
+        main::before {
+            background: #ddffdd;
+            content: 'MAIN';
+        }
+    </style>
+    <style>
+        footer {
+            background: #ffffff;
+            border: solid black 0.5px;
+        }
+    </style>
+    <style>
+        footer::before {
+            background: #ddffdd;
+            content: 'FOOTER';
+        }
+    </style>
+    <style>
+        section {
+            background: #ffffff;
+            border: solid black 0.5px;
+        }
+    </style>
+    <style>
+        section::before {
+            background: #ddffdd;
+            content: 'SECTION';
+        }
+    </style>
+    <style>
+        article {
+            background: #ffffff;
+            border: solid black 0.5px;
+        }
+    </style>
+    <style>
+        article::before {
+            background: #ddffdd;
+            content: 'ARTICLE';
+        }
+    </style>
+    <style>
+        h1::before {
+            background: #ddffdd;
+            border: solid brown 0.5px;
+            content: 'H1>';
+        }
+    </style>
+    <style>
+        h2::before {
+            background: #ddffdd;
+            border: solid brown 0.5px;
+            content: 'H2>';
+        }
+    </style>
+    <style>
+        h3::before {
+            background: #ddffdd;
+            border: solid brown 0.5px;
+            content: 'H3>';
+        }
+    </style>
+    <style>
+        h4::before {
+            background: #ddffdd;
+            border: solid brown 0.5px;
+            content: 'H4>';
+        }
+    </style>
+    <style>
+        h5::before {
+            background: #ddffdd;
+            border: solid brown 0.5px;
+            content: 'H5>';
+        }
+    </style>
+    <style>
+        h6::before {
+            background: #ddffdd;
+            border: solid brown 0.5px;
+            content: 'H6>';
+        }
+    </style>
+    <style>
+        h1 {
+            background: #dd77dd;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        h2 {
+            background: #dd77dd;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        h3 {
+            background: #dd77dd;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        h4 {
+            background: #dd77dd;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        h5 {
+            background: #dd77dd;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        h6 {
+            background: #dd77dd;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        i,
+        em {
+            background: #ffddff;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        b,
+        strong {
+            background: #ffaaff;
+            border: dashed brown 0.5px;
+        }
+    </style>
+    <style>
+        a[href]::before {
+            background: #ddffdd;
+            content: 'AHREF';
+        }
+    </style>
+    <style>
+        a[href] {
+            background: #ddffdd;
+            border: dashed orange 0.5px;
+        }
+    </style>
+    <style>
+        sup::before {
+            background: #ddffdd;
+            content: 'SUP';
+        }
+    </style>
+    <style>
+        sup {
+            background: #ddffdd;
+            border: dashed orange 0.5px;
+        }
+    </style>
+    <style>
+        sub::before {
+            background: #ddffdd;
+            content: 'SUB';
+        }
+    </style>
+    <style>
+        sub {
+            background: #ddffdd;
+            border: dashed orange 0.5px;
+        }
+    </style>
+    <style>
+        ul::before,
+        ol::before {
+            background: gray;
+            border: solid blue 1px;
+            content: 'LIST>';
+        }
+    </style>
+    <style>
+        ul,
+        ol {
+            border: solid blue 1px;
+        }
+    </style>
+    <style>
+        li::before {
+            background: yellow;
+            border: solid cyan 2px;
+            content: 'LI>';
+        }
+    </style>
+    <style>
+        li {
+            border: solid blue 1px;
+        }
+    </style>
+    <style>
+        table:before {
+            background: yellow;
+            border: solid brown 2px;
+            content: 'TABLE>';
+        }
+    </style>
+    <style>
+        table {
+            background: #ddffff;
+            border: solid black 1px;
+        }
+    </style>
+    <style>
+        figure:before {
+            background: cyan;
+            border: solid brown 0.5px;
+            content: 'FIG>';
+        }
+    </style>
+    <style>
+        figure {
+            background: #ffddff;
+            border: solid black 1px;
+        }
+    </style>
+    <style>
+        figcaption:before {
+            background: cyan;
+            border: solid brown 0.5px;
+            content: 'FIGCAP>';
+        }
+    </style>
+    <style>
+        figcaption {
+            background: #ddffff;
+            border: solid black 0.5px;
+        }
+    </style>
+    <style>
+        div {
+            background: #ddffff;
+            border: dashed orange 2px;
+        }
+    </style>
+    <style>
+        div {
+            border: dotted red 0.5px;
+            margin: 5px;
+        }
+    </style>
+    <style>
+        div::before {
+            background: #ddffdd;
+            content: 'DIV';
+        }
+    </style>
+    <style>
+        img {
+            width: 50%;
+            margin: 5px;
+        }
+    </style>
+    <style>
+        img::before {
+            background: #ddffdd;
+            content: 'IMG';
+        }
+    </style>
+    <style>
+        dl {
+            width: 50%;
+            margin: 5px;
+        }
+    </style>
+    <style>
+        dl::before {
+            background: #ddffdd;
+            content: 'DL';
+        }
+    </style>
+    <style>
+        dt {
+            width: 50%;
+            margin: 5px;
+        }
+    </style>
+    <style>
+        dt::before {
+            background: #ddffdd;
+            content: 'DT';
+        }
+    </style>
+    <style>
+        dd {
+            width: 50%;
+            margin: 5px;
+        }
+    </style>
+    <style>
+        dd::before {
+            background: #ddffdd;
+            content: 'DD';
+        }
+    </style>
+    <style>
+        p {
+            background: #ffffdd;
+            border: dashed orange 0.5px;
+        }
+    </style>
+    <style>
+        * {
+            background: pink;
+            border: solid black 5px;
+        }
+    </style>
+    <style>
+        span {
+            background: #ffdddd;
+            border: dotted black 0.5px;
+        }
+    </style> -->
+    <link rel="stylesheet" href="css/test1.css">
+    <!-- <link rel="stylesheet" href="css/book.css"> -->
 </head>
 
 <body>
     <div class="px-0 container-fluid">
-        <div class="section-tooltip spm-tooltip" id="spm-tooltip"><span id="links-to-sections">Links to underlying
-                chapter sections</span><span class="section-tooltip-text footnote-tooltip-text"
-                id="spm-tooltip-text"></span></div>
-        <header>
+        
+        <!-- <header>
             <h1 class="fw-bold home-title sub-title">SYR Longer Report</h1>
-        </header>
+        </header> -->
         <div class="col-lg-10 col-12 offset-lg-0">
-            <div class="chapter-button-content" id="chapter-button-content">
-                <div id="chapter-authors">
-                    <p class="Body" lang="en-US"><span class="CharOverride-3">Core Writing Team</span></p>
-                    <p class="Body" lang="en-US">Hoesung Lee (Chair), Katherine Calvin (USA), Dipak Dasgupta
-                        (India/USA), Gerhard Krinner (France/Germany), Aditi Mukherji (India), Peter Thorne
-                        (Ireland/United Kingdom),&#160;Christopher Trisos (South Africa), Jos&#233; Romero
-                        (Switzerland), Paulina Aldunce (Chile), Ko Barrett (USA), Gabriel Blanco (Argentina), William W.
-                        L. Cheung (Canada), Sarah L. Connors (France/United Kingdom), Fatima Denton (The Gambia),
-                        A&#239;da Diongue-Niang (Senegal), David Dodman (Jamaica/United Kingdom/Netherlands), Matthias
-                        Garschagen (Germany), Oliver Geden (Germany), Bronwyn Hayward (New Zealand), Christopher Jones
-                        (United Kingdom), Frank Jotzo (Australia), Thelma Krug (Brazil), Rodel Lasco (Philippines),
-                        June-Yi Lee (Republic of Korea), Val&#233;rie Masson-Delmotte (France), Malte Meinshausen
-                        (Australia/Germany), Katja Mintenbeck (Germany), Abdalah Mokssit (Morocco), Friederike E. L.
-                        Otto (United Kingdom/Germany), Minal Pathak (India), Anna Pirani (Italy), Elvira Poloczanska
-                        (United Kingdom/Australia), Hans-Otto P&#246;rtner (Germany), Aromar Revi (India), Debra C.
-                        Roberts (South Africa), Joyashree Roy (India/Thailand), Alex C. Ruane (USA), Jim Skea (United
-                        Kingdom), Priyadarshi R. Shukla (India), Raphael Slade (United Kingdom), Aim&#233;e Slangen (The
-                        Netherlands), Youba Sokona (Mali), Anna A. S&#246;rensson (Argentina), Melinda Tignor
-                        (USA/Germany), Detlef van Vuuren (The Netherlands), Yi-Ming Wei (China), Harald Winkler (South
-                        Africa), Panmao Zhai (China), Zinta Zommers (Latvia)</p>
-                </div>
-                <div id="chapter-figures">
-                    <div class="figure-listing col-lg-12 col-12 offset-lg-0">
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 4.6</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/50f64/IPCC_AR6_SYR_Figure_4_6.webp 502w,/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/0284a/IPCC_AR6_SYR_Figure_4_6.webp 1005w,/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/7a115/IPCC_AR6_SYR_Figure_4_6.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/2ff04/IPCC_AR6_SYR_Figure_4_6.png"
-                                        data-srcset="/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/98337/IPCC_AR6_SYR_Figure_4_6.png 502w,/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/4434b/IPCC_AR6_SYR_Figure_4_6.png 1005w,/report/ar6/syr/static/0dbb15c86223e33df56c9ac31112f5d4/2ff04/IPCC_AR6_SYR_Figure_4_6.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 4.5</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/92423/IPCC_AR6_SYR_Figure_4_5.webp 512w,/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/141ca/IPCC_AR6_SYR_Figure_4_5.webp 1024w,/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/98340/IPCC_AR6_SYR_Figure_4_5.webp 2047w"
-                                        sizes="(min-width: 2047px) 2047px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2047px) 2047px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/1b5b1/IPCC_AR6_SYR_Figure_4_5.png"
-                                        data-srcset="/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/b643a/IPCC_AR6_SYR_Figure_4_5.png 512w,/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/5f90f/IPCC_AR6_SYR_Figure_4_5.png 1024w,/report/ar6/syr/static/adedbaab66314edf7ad87a86ddc760b2/1b5b1/IPCC_AR6_SYR_Figure_4_5.png 2047w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 4.4</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/f2697/IPCC_AR6_SYR_Figure_4_4.webp 502w,/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/7169e/IPCC_AR6_SYR_Figure_4_4.webp 1005w,/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/da901/IPCC_AR6_SYR_Figure_4_4.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/c97b0/IPCC_AR6_SYR_Figure_4_4.png"
-                                        data-srcset="/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/094d4/IPCC_AR6_SYR_Figure_4_4.png 502w,/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/db9d2/IPCC_AR6_SYR_Figure_4_4.png 1005w,/report/ar6/syr/static/2f8a061eaef8dbfc9c62d3898669b843/c97b0/IPCC_AR6_SYR_Figure_4_4.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 4.3</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/5afff/IPCC_AR6_SYR_Figure_4_3.webp 503w,/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/0b57a/IPCC_AR6_SYR_Figure_4_3.webp 1006w,/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/5e95d/IPCC_AR6_SYR_Figure_4_3.webp 2012w"
-                                        sizes="(min-width: 2012px) 2012px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2012px) 2012px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/a86d7/IPCC_AR6_SYR_Figure_4_3.png"
-                                        data-srcset="/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/f52c0/IPCC_AR6_SYR_Figure_4_3.png 503w,/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/f2029/IPCC_AR6_SYR_Figure_4_3.png 1006w,/report/ar6/syr/static/a0788d051703a2950b130770a1a628ac/a86d7/IPCC_AR6_SYR_Figure_4_3.png 2012w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 4.2</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/1f049/IPCC_AR6_SYR_Figure_4_2.webp 502w,/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/6e836/IPCC_AR6_SYR_Figure_4_2.webp 1004w,/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/fa0e1/IPCC_AR6_SYR_Figure_4_2.webp 2008w"
-                                        sizes="(min-width: 2008px) 2008px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2008px) 2008px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/4f5ca/IPCC_AR6_SYR_Figure_4_2.png"
-                                        data-srcset="/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/3b3fb/IPCC_AR6_SYR_Figure_4_2.png 502w,/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/32364/IPCC_AR6_SYR_Figure_4_2.png 1004w,/report/ar6/syr/static/cc2855337596d18191e044b96b3ed608/4f5ca/IPCC_AR6_SYR_Figure_4_2.png 2008w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 4.1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/5aff4/IPCC_AR6_SYR_Figure_4_1.webp 502w,/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/12bfb/IPCC_AR6_SYR_Figure_4_1.webp 1005w,/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/265b3/IPCC_AR6_SYR_Figure_4_1.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/c0f1b/IPCC_AR6_SYR_Figure_4_1.png"
-                                        data-srcset="/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/0a460/IPCC_AR6_SYR_Figure_4_1.png 502w,/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/7e17b/IPCC_AR6_SYR_Figure_4_1.png 1005w,/report/ar6/syr/static/db34a4c3e02f5ed75bb1602e3750ab92/c0f1b/IPCC_AR6_SYR_Figure_4_1.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.6</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/a1e23/IPCC_AR6_SYR_Figure_3_6.webp 502w,/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/3f610/IPCC_AR6_SYR_Figure_3_6.webp 1005w,/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/5ab05/IPCC_AR6_SYR_Figure_3_6.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/fedda/IPCC_AR6_SYR_Figure_3_6.png"
-                                        data-srcset="/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/5681e/IPCC_AR6_SYR_Figure_3_6.png 502w,/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/6000e/IPCC_AR6_SYR_Figure_3_6.png 1005w,/report/ar6/syr/static/d1f2695cc82a9d702679b357a8b715db/fedda/IPCC_AR6_SYR_Figure_3_6.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.5</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/64b47/IPCC_AR6_SYR_Figure_3_5.webp 502w,/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/577b1/IPCC_AR6_SYR_Figure_3_5.webp 1004w,/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/5d5f6/IPCC_AR6_SYR_Figure_3_5.webp 2008w"
-                                        sizes="(min-width: 2008px) 2008px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2008px) 2008px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/f1e55/IPCC_AR6_SYR_Figure_3_5.png"
-                                        data-srcset="/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/5d4f2/IPCC_AR6_SYR_Figure_3_5.png 502w,/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/5ea8a/IPCC_AR6_SYR_Figure_3_5.png 1004w,/report/ar6/syr/static/7ca6d0bb706289da8515f547d3c984c8/f1e55/IPCC_AR6_SYR_Figure_3_5.png 2008w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.4</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/ac739/IPCC_AR6_SYR_Figure_3_4.webp 502w,/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/d722f/IPCC_AR6_SYR_Figure_3_4.webp 1004w,/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/c4f6e/IPCC_AR6_SYR_Figure_3_4.webp 2008w"
-                                        sizes="(min-width: 2008px) 2008px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2008px) 2008px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/97426/IPCC_AR6_SYR_Figure_3_4.png"
-                                        data-srcset="/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/faaa7/IPCC_AR6_SYR_Figure_3_4.png 502w,/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/2c98f/IPCC_AR6_SYR_Figure_3_4.png 1004w,/report/ar6/syr/static/961326f539119aa5bf74a42a465a676d/97426/IPCC_AR6_SYR_Figure_3_4.png 2008w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.3.2</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/babae/IPCC_AR6_SYR_Figure_3_3_2.webp 502w,/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/bf3c2/IPCC_AR6_SYR_Figure_3_3_2.webp 1005w,/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/e9fc3/IPCC_AR6_SYR_Figure_3_3_2.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/4c9b6/IPCC_AR6_SYR_Figure_3_3_2.png"
-                                        data-srcset="/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/6280e/IPCC_AR6_SYR_Figure_3_3_2.png 502w,/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/ea73e/IPCC_AR6_SYR_Figure_3_3_2.png 1005w,/report/ar6/syr/static/3cf7290e0a8b328b5dfc269734599575/4c9b6/IPCC_AR6_SYR_Figure_3_3_2.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.3.1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/fe34d/IPCC_AR6_SYR_Figure_3_3_1.webp 503w,/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/ffa08/IPCC_AR6_SYR_Figure_3_3_1.webp 1006w,/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/9b017/IPCC_AR6_SYR_Figure_3_3_1.webp 2011w"
-                                        sizes="(min-width: 2011px) 2011px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2011px) 2011px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/ec083/IPCC_AR6_SYR_Figure_3_3_1.png"
-                                        data-srcset="/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/be020/IPCC_AR6_SYR_Figure_3_3_1.png 503w,/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/9fcd6/IPCC_AR6_SYR_Figure_3_3_1.png 1006w,/report/ar6/syr/static/41a4ca78ba6d140b64ef365705d1890e/ec083/IPCC_AR6_SYR_Figure_3_3_1.png 2011w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.2</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/a75f2/IPCC_AR6_SYR_Figure_3_2.webp 502w,/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/aff38/IPCC_AR6_SYR_Figure_3_2.webp 1005w,/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/643d7/IPCC_AR6_SYR_Figure_3_2.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/2b0b4/IPCC_AR6_SYR_Figure_3_2.png"
-                                        data-srcset="/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/91430/IPCC_AR6_SYR_Figure_3_2.png 502w,/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/4f130/IPCC_AR6_SYR_Figure_3_2.png 1005w,/report/ar6/syr/static/49bc14891aae629978136b950445d4e0/2b0b4/IPCC_AR6_SYR_Figure_3_2.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 3.1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/82ad8/IPCC_AR6_SYR_Figure_3_1.webp 502w,/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/939d2/IPCC_AR6_SYR_Figure_3_1.webp 1004w,/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/97444/IPCC_AR6_SYR_Figure_3_1.webp 2008w"
-                                        sizes="(min-width: 2008px) 2008px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2008px) 2008px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/1333a/IPCC_AR6_SYR_Figure_3_1.png"
-                                        data-srcset="/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/1b6a6/IPCC_AR6_SYR_Figure_3_1.png 502w,/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/42242/IPCC_AR6_SYR_Figure_3_1.png 1004w,/report/ar6/syr/static/bb7c57a1429ce3a3d5676828295b1926/1333a/IPCC_AR6_SYR_Figure_3_1.png 2008w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Cross-Section Box.2, Figure 1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/91f44/IPCC_AR6_SYR_CSB_2_Figure_1.webp 502w,/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/9c984/IPCC_AR6_SYR_CSB_2_Figure_1.webp 1005w,/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/98540/IPCC_AR6_SYR_CSB_2_Figure_1.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/f45bb/IPCC_AR6_SYR_CSB_2_Figure_1.png"
-                                        data-srcset="/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/4a5df/IPCC_AR6_SYR_CSB_2_Figure_1.png 502w,/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/62421/IPCC_AR6_SYR_CSB_2_Figure_1.png 1005w,/report/ar6/syr/static/9002472866c628f4dd1ae6d409960c6b/f45bb/IPCC_AR6_SYR_CSB_2_Figure_1.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 2.5</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/f6b10/IPCC_AR6_SYR_Figure_2_5.webp 502w,/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/e37d3/IPCC_AR6_SYR_Figure_2_5.webp 1005w,/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/2451e/IPCC_AR6_SYR_Figure_2_5.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/d7dd8/IPCC_AR6_SYR_Figure_2_5.png"
-                                        data-srcset="/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/5cfe9/IPCC_AR6_SYR_Figure_2_5.png 502w,/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/43731/IPCC_AR6_SYR_Figure_2_5.png 1005w,/report/ar6/syr/static/bd76b276f25c8e936e36cd5ec01e93a6/d7dd8/IPCC_AR6_SYR_Figure_2_5.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 2.4</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/fced2/IPCC_AR6_SYR_Figure_2_4.webp 501w,/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/6842e/IPCC_AR6_SYR_Figure_2_4.webp 1002w,/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/487a4/IPCC_AR6_SYR_Figure_2_4.webp 2004w"
-                                        sizes="(min-width: 2004px) 2004px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2004px) 2004px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/08678/IPCC_AR6_SYR_Figure_2_4.png"
-                                        data-srcset="/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/0b276/IPCC_AR6_SYR_Figure_2_4.png 501w,/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/ad796/IPCC_AR6_SYR_Figure_2_4.png 1002w,/report/ar6/syr/static/7dfc915b7a5e9072c9c06c7d2b025bc9/08678/IPCC_AR6_SYR_Figure_2_4.png 2004w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 2.3.2</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/1e7fc/IPCC_AR6_SYR_Figure_2_3_2.webp 502w,/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/8f987/IPCC_AR6_SYR_Figure_2_3_2.webp 1004w,/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/36c66/IPCC_AR6_SYR_Figure_2_3_2.webp 2007w"
-                                        sizes="(min-width: 2007px) 2007px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2007px) 2007px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/64b3b/IPCC_AR6_SYR_Figure_2_3_2.png"
-                                        data-srcset="/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/9a980/IPCC_AR6_SYR_Figure_2_3_2.png 502w,/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/64d2b/IPCC_AR6_SYR_Figure_2_3_2.png 1004w,/report/ar6/syr/static/026394d12235b5d0fbe57123db70bbb2/64b3b/IPCC_AR6_SYR_Figure_2_3_2.png 2007w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 2.3.1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/f9a8f/IPCC_AR6_SYR_Figure_2_3_1.webp 502w,/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/27caa/IPCC_AR6_SYR_Figure_2_3_1.webp 1005w,/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/53ef4/IPCC_AR6_SYR_Figure_2_3_1.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/36521/IPCC_AR6_SYR_Figure_2_3_1.png"
-                                        data-srcset="/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/52324/IPCC_AR6_SYR_Figure_2_3_1.png 502w,/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/65a21/IPCC_AR6_SYR_Figure_2_3_1.png 1005w,/report/ar6/syr/static/b51f645f1329ca990b56449f62fb9fac/36521/IPCC_AR6_SYR_Figure_2_3_1.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 2.2</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/e5515/IPCC_AR6_SYR_Figure_2_2.webp 502w,/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/ef1ed/IPCC_AR6_SYR_Figure_2_2.webp 1005w,/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/fb070/IPCC_AR6_SYR_Figure_2_2.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/82bfc/IPCC_AR6_SYR_Figure_2_2.png"
-                                        data-srcset="/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/a6412/IPCC_AR6_SYR_Figure_2_2.png 502w,/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/9884e/IPCC_AR6_SYR_Figure_2_2.png 1005w,/report/ar6/syr/static/73420547bb3e17ac191b84d415525199/82bfc/IPCC_AR6_SYR_Figure_2_2.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 2.1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/39f3c/IPCC_AR6_SYR_Figure_2_1.webp 502w,/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/8093a/IPCC_AR6_SYR_Figure_2_1.webp 1005w,/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/40464/IPCC_AR6_SYR_Figure_2_1.webp 2009w"
-                                        sizes="(min-width: 2009px) 2009px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 2009px) 2009px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/5453e/IPCC_AR6_SYR_Figure_2_1.png"
-                                        data-srcset="/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/2781c/IPCC_AR6_SYR_Figure_2_1.png 502w,/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/065b0/IPCC_AR6_SYR_Figure_2_1.png 1005w,/report/ar6/syr/static/0713896960436e2a75a4bafd69728a7b/5453e/IPCC_AR6_SYR_Figure_2_1.png 2009w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12">
-                            <h3>Figure 1.1</h3>
-                            <div data-gatsby-image-wrapper
-                                class="gatsby-image-wrapper gatsby-image-wrapper-constrained img-card">
-                                <picture>
-                                    <source type="image/webp"
-                                        data-srcset="/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/54890/IPCC_AR6_SYR_Figure_1_1.webp 427w,/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/1e657/IPCC_AR6_SYR_Figure_1_1.webp 854w,/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/92bf5/IPCC_AR6_SYR_Figure_1_1.webp 1707w"
-                                        sizes="(min-width: 1707px) 1707px, 100vw">
-                                    </source><img data-gatsby-image-ssr data-main-image
-                                        sizes="(min-width: 1707px) 1707px, 100vw" decoding="async" loading="lazy"
-                                        data-src="/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/99c97/IPCC_AR6_SYR_Figure_1_1.png"
-                                        data-srcset="/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/a3107/IPCC_AR6_SYR_Figure_1_1.png 427w,/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/1a7bf/IPCC_AR6_SYR_Figure_1_1.png 854w,/report/ar6/syr/static/c683870d4ce925050abdb6b2bbda7391/99c97/IPCC_AR6_SYR_Figure_1_1.png 1707w"
-                                        alt>
-                                </picture>
-                                <script
-                                    type="module">const t = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype; if (t) { const t = document.querySelectorAll("img[data-main-image]"); for (let e of t) { e.dataset.src && (e.setAttribute("src", e.dataset.src), e.removeAttribute("data-src")), e.dataset.srcset && (e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset")); const t = e.parentNode.querySelectorAll("source[data-srcset]"); for (let e of t) e.setAttribute("srcset", e.dataset.srcset), e.removeAttribute("data-srcset"); e.complete && (e.style.opacity = 1) } }</script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="chapter-citation">
-                    <p class="Body" lang="en-US"><span class="CharOverride-3">Referencing this report:</span></p>
-                    <p class="Body" lang="en-US">IPCC, 2023: <span class="CharOverride-4">Climate Change 2023: Synthesis
-                            Report.</span> <span class="CharOverride-4">Contribution of Working Groups I, II and III to
-                            the Sixth Assessment Report of the Intergovernmental Panel on Climate Change </span>[Core
-                        Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland, 184 pp., doi:
-                        10.59327/IPCC/AR6-9789291691647.&#160;&#160;</p>
-                </div>
-            </div>
-            <div class="h1-container" id="1. Introduction">
-                <h1 class="LR-text-heading" lang="en-US">1. Introduction </h1>
-                <div class="h1-siblings" id="h1-30-siblings">
-                    <p class="Body" lang="en-US" id="1. Introduction_p1">This Synthesis Report (SYR) of the IPCC Sixth
-                        Assessment Report (AR6) summarises the state of knowledge of climate change, its widespread
-                        impacts and risks, and climate change mitigation and adaptation, based on the peer-reviewed
-                        scientific, technical and socio-economic literature since the publication of the IPCC&#8217;s
-                        Fifth Assessment Report (AR5) in 2014.</p>
-                    <p class="Body" lang="en-US" id="1. Introduction_p2">The assessment is undertaken within the context
-                        of the evolving international landscape, in particular, developments in the UN Framework
-                        Convention on Climate Change (UNFCCC) process, including the outcomes of the Kyoto Protocol and
-                        the adoption of the Paris Agreement. It reflects the increasing diversity of those involved in
-                        climate action.</p>
-                    <p class="Body" lang="en-US" id="1. Introduction_p3">This report integrates the main findings of the
-                        AR6 Working Group reports <span class="footnote CharOverride-20"><span
-                                id="footnote-099-backlink"><a class="_idFootnoteLink _idGenColorInherit"
-                                    href="Publication_AR6_SYR_all_6_July_final.html#footnote-099">58</a> </span></span>
-                        and the three AR6 Special Reports <span class="footnote CharOverride-20"><span
-                                id="footnote-098-backlink"><a class="_idFootnoteLink _idGenColorInherit"
-                                    href="Publication_AR6_SYR_all_6_July_final.html#footnote-098">59</a> </span></span>.
-                        It recognizes the interdependence of climate, ecosystems and biodiversity, and human societies;
-                        the value of diverse forms of knowledge; and the close linkages between climate change
-                        adaptation, mitigation, ecosystem health, human well-being and sustainable development. Building
-                        on multiple analytical frameworks, including those from the physical and social sciences, this
-                        report identifies opportunities for transformative action which are effective, feasible, just
-                        and equitable using concepts of systems transitions and resilient development pathways <span
-                            class="footnote CharOverride-20"><span id="footnote-097-backlink"><a
-                                    class="_idFootnoteLink _idGenColorInherit"
-                                    href="Publication_AR6_SYR_all_6_July_final.html#footnote-097">60</a> </span></span>.
-                        Different regional classification schemes <span class="footnote CharOverride-20"><span
-                                id="footnote-096-backlink"><a class="_idFootnoteLink _idGenColorInherit"
-                                    href="Publication_AR6_SYR_all_6_July_final.html#footnote-096">61</a> </span></span>
-                        are used for physical, social and economic aspects, reflecting the underlying literature.</p>
-                    <p class="Body" lang="en-US" id="1. Introduction_p4">After this introduction, Section 2,
-                        &#8216;<span class="CharOverride-4">Current Status and Trends&#8217;</span>, opens with the
-                        assessment of observational evidence for our changing climate, historical and current drivers of
-                        human-induced climate change, and its impacts. It assesses the current implementation of
-                        adaptation and mitigation response options. Section 3, &#8216;<span
-                            class="CharOverride-4">Long-Term Climate and Development Futures</span>&#8217;, provides a
-                        long-term assessment of climate change to 2100 and beyond in a broad range of socio-economic
-                        futures. It considers long-term characteristics, impacts, risks and costs in adaptation and
-                        mitigation pathways in the context of sustainable development. Section 4, &#8216;<span
-                            class="CharOverride-4">Near- Term Responses in a Changing Climate</span>&#8217;, assesses
-                        opportunities for scaling up effective action in the period up to 2040, in the context of
-                        climate pledges, and commitments, and the pursuit of sustainable development.</p>
-                    <p class="Body" lang="en-US" id="1. Introduction_p5">Based on scientific understanding, key findings
-                        can be formulated as statements of fact or associated with an assessed level of confidence using
-                        the IPCC calibrated language <span class="footnote CharOverride-20"><span
-                                id="footnote-095-backlink"><a class="_idFootnoteLink _idGenColorInherit"
-                                    href="Publication_AR6_SYR_all_6_July_final.html#footnote-095">62</a> </span></span>.
-                        The scientific findings are drawn from the underlying reports and arise from their Summary for
-                        Policymakers (hereafter SPM), Technical Summary (hereafter TS), and underlying chapters and are
-                        indicated by <!-- -->{}<!-- --> brackets. Figure 1.1 shows the Synthesis Report Figures Key, a
-                        guide to visual icons that are used across multiple figures within this report.</p>
-                    <div class="_idGenObjectLayout-1 figure-cont" id="figure-1-1">
-                        <p><span><img alt class="_idGenObjectAttribute-1" id="IPCC_AR6_SYR_Figure_1_1.png"
-                                    src="https://www.ipcc.ch/report/ar6/syr/downloads/figures/IPCC_AR6_SYR_Figure_1_1.png"></span>
-                        </p>
-                        <p class="Caption" lang="en-US"><span><span>Figure 1.1: The Synthesis Report figures key.
-                                </span></span></p>
-                    </div>
-                </div>
-            </div>
             <div class="h1-container" id="Section-2">
                 <h1 class="LR-text-heading" lang="en-US">Section 2: Current Status and Trends </h1>
                 <div class="h2-container" id="2.1">
