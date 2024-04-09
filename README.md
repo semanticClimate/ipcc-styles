@@ -1,24 +1,7 @@
 # IPCC styles
 
-CSS styles for IPCC reports. Development tests from semanticClimate.
+Run ./start-viewer in /vivlio
 
-AR6:
+Local: http://127.0.0.1:8000/viewer/#src=/ipcc/pub-manifest/manifest.json&style=/ipcc/theme/theme.css
 
-  - Style #1 - Sythesis Report: https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf
-  - Style #2 - Longer Report: https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf
-  - Style #3- Full Volume: Note: this would not need a new style it instead uses style #1 and #2 for different doc parts - Full Volume (this is Sythesis Report and Longer Report in one): https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf
-  - Other styles for other parts - to be fonfirmed
-
-# Styles for py4amihtml outputs
-
-To be confirmed
-
-## Sources
-
-### Sythesis Report
-
-
-### Longer report
-
-
-
+Online: https://vivliostyle.vercel.app/#src=https://raw.githubusercontent.com/semanticClimate/ipcc-styles/main/vivlio/ipcc/pub-manifest/manifest.json&style=https://raw.githubusercontent.com/semanticClimate/ipcc-styles/main/vivlio/ipcc/theme/theme.css

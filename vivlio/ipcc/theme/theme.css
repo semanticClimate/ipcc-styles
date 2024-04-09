@@ -1,0 +1,379 @@
+@font-face {
+  font-family: Frutiger Condensed;
+  font-weight: 400;
+  src: url("media/FrutigerLTProCondensed.otf") format("opentype");
+}
+@font-face {
+  font-family: Frutiger;
+  font-weight: 400;
+  src: url("media/FrutigerLTProRoman.otf") format("opentype");
+}
+
+
+*{
+  font-family: "Frutiger Condensed", sans-serif;
+}
+
+/*Page size*/
+
+@page {
+  size: 216mm 279mm;
+  margin-top: 25mm;
+  margin-bottom: 25mm;
+}
+/* @page {
+  @footnote {
+      border-top: dashed red 1px;
+      float: bottom;
+  } */
+
+
+/*Cover*/ 
+
+@page: first {
+  content: "Section";
+  background-color:#588dd1;
+  /* background-size: 216mm 279mm; */
+  display: flex;
+  font-size: 40pt;
+  font-family: "Frutiger Condensed", sans-serif;
+  font-weight: 900;
+  margin-bottom: 100vh;
+  page-break-after: always;
+  color: #FFF;
+  @bottom-left { content: normal; }
+  @bottom-center { content: normal; }
+  @bottom-right { content: normal; }
+  @top-left { content: normal; }
+  @top-right { content: normal;}
+  @top-center { content: normal;}
+  
+} 
+
+/*Verso - left page*/ 
+
+@page: left {
+  margin-left: 15mm;
+  margin-right: 20mm;
+  @top-left {
+    content: "Section";
+    font-weight: 900;
+    font-size: 8.5pt;
+    color:#588dd1;
+    vertical-align: bottom;
+    margin-bottom:18px;
+  }
+  @top-center {
+    content: " ";
+  }
+  @bottom-left {
+    content: counter(page);
+    font-family: "Frutiger Condensed", sans-serif;
+    font-weight: 900;
+    font-size: 10pt;
+    line-height: 1.4;
+    color: grey;
+    vertical-align: top;
+    }
+    @bottom-center {
+        content: " ";
+        width: 10%;
+      }
+      @bottom-right { width: 15%; }
+  }
+
+  /*Recto - right page*/
+
+@page: right {
+  margin-left: 15mm;
+  margin-right: 20mm;
+  @top-right {
+    content: "Section";
+    font-weight: 900;
+    font-size: 8.5pt;
+    color:#588dd1;
+    vertical-align: bottom;
+    margin-bottom:18px;
+  }
+  @top-center {
+    content: " ";
+  }
+  @bottom-left { width: 15%; }
+  @bottom-center {
+    content: " ";
+    width: 10%;
+  }
+  @bottom-right {
+    content: counter(page);
+    font-family: "Frutiger Condensed", sans-serif;
+    font-weight: 900;
+    font-size: 10pt;
+    line-height: 1.4;
+    color: grey;
+    vertical-align: top;
+  }
+}
+
+/*Blank page*/ 
+
+@page: blank {
+  @bottom-left {content: normal;}
+  @bottom-right {content: normal;}
+  @top-center {content: normal;}
+  @top-left {content: normal;}
+  @top-right {content: normal;}
+}
+
+.LR-salmon-grey-box {
+  padding: 8px 10px;
+  font-family: Frutiger;
+  font-weight: 700;
+  font-size: 9.5pt;
+  line-height: 1.4;
+  background-color: #F3F3F3;
+  margin: 10px 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  page-break-inside: avoid;
+}
+.Box { 
+  background-color: #F3F3F3;
+  font-size: 9.5pt;                                
+  padding: 10px 10px 8px 10px;
+  column-span: all!important;
+display:block;
+}
+.h3-container {
+column-count: 2;
+column-gap: 0.5cm;
+max-width: 800px;
+/* column-rule: 1px solid #ff00ff; */
+
+/* break-after: column; */
+margin: 10px 0;
+
+/* max-height: 35vh;
+column-fill: auto; */
+}
+.Body { 
+  /* break-after: column; */
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 9.5pt!important;
+font-family: Frutiger Condensed;
+margin: 10px 0;
+  orphans: 2;
+  widows: 2;
+} 
+
+ p.footnote {
+  float: footnote;
+  font-size: 8pt;
+  font-weight: 300;
+  margin-bottom: 20px;
+  /* float: footnote;
+      font-size: 8pt;
+      counter-increment: footnote;
+      text-indent: 0;
+      letter-spacing: 0.06pt;
+      line-height:1.2; */
+}
+
+
+a._idFootnoteLink  {
+  font-weight: 300;
+  font-size: 5.25pt;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+   line-height: 0;
+   vertical-align: baseline;
+   top: -0.5em;
+}
+.figure-cont {
+  margin-bottom: 12px;
+}
+
+ul {
+  margin-left: 15px!important;
+}
+li.Body-bullet {
+  font-size: 9.5pt!important;
+  font-family: Frutiger Condensed;
+}
+
+/* .footnote::footnote-marker {
+  content: counter(footnote, lower-roman);
+  font-size: 14pt;
+  color: red;
+  display: inline-block;
+  width: 2em;
+  padding-right: 1em;
+  text-align: right;
+} */
+
+  h1 {
+    font-size: 16pt!important;
+    font-family: "Frutiger Condensed", sans-serif;
+    font-weight: 900;
+    margin-bottom: 18px!important;
+    color:#588dd1;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+.h1-container {
+  page-break-before: always;
+}
+h2 {
+    font-size: 12pt;
+    font-weight: 900;
+    color:#588dd1;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+h3{
+    font-size: 10pt;
+    font-weight: 900;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+.h2-container, .h3-container {
+  margin-bottom: 30px!important;
+}
+
+.Caption{
+  font-size: 8pt;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 10px;
+}
+.CharOverride-3 {
+  font-weight: 800;
+}
+.Caption {
+column-span: all!important;
+display:block;
+margin: 10px 0;
+}
+
+ img {
+  max-width: 100vw;
+  object-fit: cover;
+  max-height: 100vh;
+  column-span: all!important;
+  display:block;
+  page-break-before: always;
+}
+h1+p, h2+p, h3+p {
+  page-break-before: avoid;
+}
+
+table, figure {
+  page-break-inside: avoid;
+}
+
+
+   /*from body*/ 
+  
+  html,
+  body,
+  div,
+  span,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  abbr,
+  address,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  samp,
+  small,
+  strong,
+  sub,
+  sup,
+  var,
+  b,
+  i,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    hyphens: none;
+  }
+  
+
+
+ 
+  
+
+  
+ 
+  
+ /*  h2 + h2, h2 + h3, h3 + h4, h4 + h5 {
+    margin-top: -5pt;
+  }
+  
+  h2 + p {
+    margin-top: -5pt;
+  }
+  
+  h3 + p, h4 + p, h5 + p {
+   margin-top: -3pt;
+  }
+  
+  h2 + p  {
+      page-break-after: avoid;
+  }
+   */
